@@ -2,7 +2,7 @@ body{
   position: relative;
 }
 
-h1, h2{
+h1, h2, h3{
   font-family: 'Arvo', serif;
 }
 
@@ -124,7 +124,7 @@ a{
 }
 
 .jumbotron-inverse{
-  background-color: #bdc3c7;
+  background-color: rgba(189, 195, 199, .7);
 }
 
 .jumbo-descript{
@@ -271,3 +271,16 @@ a{
 #sq5E:hover h3{display: none;}
 #sq5E p{display: none;}
 #sq5E:hover p{display: block;}
+
+
+/******************
+*     Culture     *
+******************/
+
+#social{
+  background: url('formal.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
