@@ -101,10 +101,12 @@ a{
 .jumbo-panels{
   width: 28%;
   float: left;
+  color: #ecf0f1;
 }
 
 .jumbo-panels .panel{
   display: inline-block;
+  border: none;
 }
 
 .panel-md{
@@ -114,20 +116,37 @@ a{
 
 .panel-lg{
   width: 97%;
-  margin: 2px;
+  margin: 5px 2px 2px 2px;
 }
 
 .panel-heading{
-  height: 100px;
+  border: none;
 }
 
 .panel-heading h3{
+  color: white;
+}
+
+.panel-md .panel-heading{
+  height: 100px;
+}
+
+.panel-lg .panel-heading{
+  height: 120px;
+}
+
+.panel-md .panel-heading h3{
   font-size: 3em;
+}
+
+.panel-lg .panel-heading h3{
+  font-size: 4em;
 }
 
 .panel-body p{
   font-size: 1.2em;
   margin: 0;
+  border-radius: 0px 4px 4px 0px;
 }
 
 .panel-heading, .panel-body{
