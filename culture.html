@@ -6,6 +6,8 @@
       -->
     <title>Next House | 500 Memorial Drive, Cambridge MA</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="static/js/index.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
@@ -25,7 +27,14 @@
       <nav class="navbar navbar-toggleable navbar-inverse bg-faded">
         <ul class="nav navbar-nav">
           <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="culture.html">Culture</a></li>
+          <li class="dropdown" id="culture">
+            <a href="culture.html">Culture</a>
+            <ul id="cultureDrop" class="dropdown-menu navbar-inverse" style="border: none">
+              <li><a href="culture.html#wings">Wings</a></li>
+              <li><a href="culture.html#social">Social</a></li>
+              <li><a href="culture.html#studentgroups">Student Groups</a></li>
+            </ul>
+          </li>
           <li><a href="housing.html">Housing</a></li>
           <li><a href="facilities.html">Facilities</a></li>
           <li><a href="resources.html">Student Resources</a></li>
@@ -35,13 +44,75 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h2>Welcome to Next House!</h2>
-        <p>With over 350 residents, we are one of the largest and friendliest dorms on campus. We are a group of easy-going people who like to hang out, have fun, and enjoy our time together here at MIT. </p>
-        <p>Situated right on the banks of the Charles River, Next offers stunning views of the riverfront, downtown Boston, Fenway, and the infamous CITGO sign. The first floor contains our Tastefully Furnished Lounge and our dining hall - offering daily breakfast and dinner. For those who like to keep in shape - we have well-equipped weight and cardio rooms, for those who like music - a music room, and for those who like to launder - a laundry room. For the chefs among us we have a spectacular kitchen. We also have a pool table, ping-pong tables, foosball, an ever-expanding collection of DVD's, as well as an Athena cluster.</p>
+        <h2>Culture</h2>
+        <p>We're interested in anything and everything! You're sure to find other people in Next with similar interests as you - whether it be playing a varsity sport or just going for a casual run, playing in MIT's best musical ensembles or just jamming in the music room, acting, singing, playing board and video games, building cool techy projects, doing recreational math, sleeping (sometimes...), cooking, or eating - we do it all!</p>
+        <p>But, despite our huge range of interests, the one thing that we all have in common is that we love to have fun, and we're friendly and engaging!</p>
       </div>
     </div>
 
-    <!-- insert photo collage here-->
+    <div class="jumbotron jumbotron-inverse" id="wings">
+      <div class="container">
+        <h2>Wings</h2>
+        <p>Next house is composed of 8 wings, a Western wing and an Eastern wing on each of the floors 2, 3, 4, and 5.</p>
+        <p>Some wing's pages are currently under construction. Please check back later for those.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="square" id="sq2W">
+            <h3>2W</h3>
+            <p><em>no website</em></p>
+          </div>
+          <div class="square" id="sq2E">
+            <h3>2E</h3>
+            <p><a href="https://next2e.github.io/">website</a></p>
+          </div>
+          <div class="square" id="sq3W">
+            <h3>3W</h3>
+            <p><em>incomplete</em></p>
+          </div>
+          <div class="square" id="sq3E">
+            <h3>3E</h3>
+            <p><em>could</em></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="square" id="sq4W">
+            <h3>4W</h3>
+            <p><em>put</em></p>
+          </div>
+          <div class="square" id="sq4E">
+            <h3>4E</h3>
+            <p><em>a</em></p>
+          </div>
+          <div class="square" id="sq5W">
+            <h3>5W</h3>
+            <p><em>blurb</em></p>
+          </div>
+          <div class="square" id="sq5E">
+            <h3>5E</h3>
+            <p><em>here</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="social">
+      <div class="container">
+        <h2>Social</h2>
+        <p>
+          Next is one of the most social dorms on campus! We have regular study breaks (such as <strong>coffeehouse</strong>) and social events so you can take a break from those psets, an <strong>annual fall formal</strong> so you can dance away, and an annual <strong>ski trip</strong> so you can breeze down a snowy mountain (...or tumble on your behind, if you've never been skiing before). Some other big social events that we've had include wing competitions, Next Island, Mardi Gras, and <strong>Next Big Party</strong>.
+        </p>
+        <p>
+          But that's just part of the story - just walk through any wing of Next in the evening and you'll find a hustle-bustle of action. People will be in lounges working on psets together - having a good time while getting some work done. Others will be cooking, jamming in the music room, watching TV, playing video games, or just chilling and having a good time. It's these smaller, impromptu social gatherings that really define the warmth and friendly atmosphere of Next.
+        </p>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-inverse" id="studentgroups">
+      <div class="container">
+        <h2>Student Groups</h2>
+      </div>
+    </div>
 
     <div class="footer">
       <div class="container" style="padding: 50px;">

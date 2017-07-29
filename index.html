@@ -7,6 +7,7 @@
     <title>Next House | 500 Memorial Drive, Cambridge MA</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="static/js/index.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
@@ -26,7 +27,14 @@
       <nav class="navbar navbar-toggleable navbar-inverse bg-faded">
         <ul class="nav navbar-nav">
           <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="culture.html">Culture</a></li>
+          <li class="dropdown" id="culture">
+            <a href="culture.html">Culture</a>
+            <ul id="cultureDrop" class="dropdown-menu navbar-inverse" style="border: none">
+              <li><a href="culture.html#wings">Wings</a></li>
+              <li><a href="culture.html#social">Social</a></li>
+              <li><a href="culture.html#studentgroups">Student Groups</a></li>
+            </ul>
+          </li>
           <li><a href="housing.html">Housing</a></li>
           <li><a href="facilities.html">Facilities</a></li>
           <li><a href="resources.html">Student Resources</a></li>
@@ -34,7 +42,7 @@
       </nav>
     </div>
 
-    <div class="jumbotron" style="margin-bottom: 0;">
+    <div class="jumbotron">
       <div class="container">
         <h2>Welcome to Next House!</h2>
         <div class="col jumbo-descript">
@@ -70,7 +78,7 @@
       </div>
     </div>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:70%; overflow: hide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:50%; overflow: hide">
       <!--<ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -79,39 +87,36 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" style="height: 100%; overflow: hide;">
-        <div class="item active" style="top:-20%">
-          <img src="static/assets/next.png" alt="Next House">
-        </div>
 
-        <div class="item" style="top:-50%">
+        <div class="item" style="top:-80%">
           <img src="static/assets/2east.jpg" alt="2East">
         </div>
 
-        <div class="item" style="top: -40%">
+        <div class="item" style="top: -70%">
           <img src="static/assets/emptyroom.jpg" alt="An Empty Room">
         </div>
 
-        <div class="item" style="top:-60%">
+        <div class="item" style="top:-80%">
           <img src="static/assets/studybreakprep.jpg" alt="Preparing for a Study Break">
         </div>
 
-        <div class="item" style="top:-65%">
+        <div class="item" style="top:-95%">
           <img src="static/assets/view.jpg" alt="River View">
         </div>
 
-        <div class="item" style="top:-50%">
+        <div class="item" style="top:-60%">
           <img src="static/assets/2elounge.jpg" alt="A Wing Lounge">
         </div>
 
-        <div class="item" style="top:-45%">
+        <div class="item" style="top:-70%">
           <img src="static/assets/ceerenda.jpg" alt="Crufty Next Exec">
         </div>
 
-        <div class="item" style="top:-75%">
-          <img src="static/assets/billview.jpg" alt="Another view of Next House">
+        <div class="item active" style="top:-90%">
+          <img src="static/assets/billview.jpg" alt="Next House">
         </div>
 
-        <div class="item" style="top:-50%">
+        <div class="item" style="top:-60%">
           <img src="static/assets/nexthaunt.jpg" alt="Next Haunt in Progress">
         </div>
       </div>
@@ -128,7 +133,7 @@
     </div>
 
     <div class="footer">
-      <div class="container" style="padding: 20px;">
+      <div class="container" style="padding: 50px;">
         <div class="row">
           <div class="col" style="float:right">
             <p style="text-align:right">Established in 1982. <br>
@@ -136,10 +141,10 @@
             </p>
           </div>
           <div class="col">
-              <a href="https://www.facebook.com/nexthousemit/"><img src="static/assets/facebook.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
+            <p><a href="https://www.facebook.com/nexthousemit/"><img src="static/assets/facebook.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
               <a href="https://twitter.com/mitnexthouse"><img src="static/assets/twitter.png" class="social-icon"></img></a>
               <a href="http://mitnexthouse.tumblr.com/"><img src="static/assets/tumblr.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
-              <p>Comments? Problems? Just bored? Email next-web (at) mit (dot) edu!</p>
+              <br>Comments? Problems? Just bored? Email next-web (at) mit (dot) edu!</p>
           </div>
         </div>
       </div>
