@@ -1,4 +1,4 @@
-h1{
+h1, h2{
   font-family: 'Arvo', serif;
 }
 
@@ -75,4 +75,61 @@ a{
 
 .navbar .nav li a:focus{
   background-color: #3498db;
+}
+
+.footer{
+  background-color: #34495e;
+  color: #bdc3c7;
+}
+
+.social-icon{
+  width: 15px;
+  margin: 5px;
+  opacity: 0.7;
+}
+
+.social-icon:hover{
+  opacity:1;
+}
+
+.jumbo-descript{
+  width:70%;
+  margin-right: 17px;
+  float:left;
+}
+
+.jumbo-panels{
+  width: 28%;
+  float: left;
+}
+
+.jumbo-panels .panel{
+  display: inline-block;
+}
+
+.panel-md{
+  width: 47%;
+  margin: 2px;
+}
+
+.panel-lg{
+  width: 97%;
+  margin: 2px;
+}
+
+.panel-heading{
+  height: 100px;
+}
+
+.panel-heading h3{
+  font-size: 3em;
+}
+
+.panel-body p{
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.panel-heading, .panel-body{
+  text-align: center;
 }
