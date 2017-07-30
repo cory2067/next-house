@@ -305,6 +305,10 @@ a{
     display: inline-grid;
   }
 }
+.panel-sg{
+  position: relative;
+  display: inline-block;
+}
 
 .panel-sg .panel-heading{
   overflow: hidden;
@@ -320,7 +324,7 @@ a{
   width: 100%;
 }
 
-.panel-heading:hover img{
+.panel-sg:hover img{
   visibility: hidden;
 }
 
@@ -331,7 +335,7 @@ a{
   width: 88%;
 }
 
-.panel-heading:hover .sg-links{
+.panel-sg:hover .sg-links{
   visibility: visible;
 }
 
@@ -349,6 +353,14 @@ a{
 
 .panel-sg .panel-body{
   display: none;
+  position: absolute;
+  z-index: 1;
+  float: left;
+  left: 100%;
+  top: 0%;
+  width: 300px;
+  background-color: #DDDDDD;
+  border: 3px solid black;
 }
 
 .panel-sg:hover .panel-body{
