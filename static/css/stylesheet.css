@@ -119,6 +119,7 @@ a{
 .social-icon:hover{
   opacity:1;
 }
+
 .jumbotron{
   margin-bottom: 0;
 }
@@ -274,13 +275,142 @@ a{
 
 
 /******************
-*     Culture     *
+*    Specific     *
 ******************/
 
 #social{
-  background: url('formal.jpg') no-repeat center center fixed;
+  background: url('bgds/formal.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+}
+
+#rooms img{
+  max-width:100%;
+}
+
+.panel-sg{
+  width: 23%;
+  margin: 5px;
+  position: relative;
+  display: inline-grid;
+}
+
+@media (max-width: 1000px){
+  .panel-sg{
+    width: 31%;
+    margin: 5px;
+    position: relative;
+    display: inline-grid;
+  }
+}
+
+.panel-sg .panel-heading{
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.panel-sg .panel-body{
+  text-align: left;
+}
+
+.sg-logo img{
+  visibility: visible;
+  width: 100%;
+}
+
+.sg-logo:hover img{
+  visibility: hidden;
+}
+
+.sg-logo .sg-links{
+  visibility: hidden;
+  position: absolute;
+  margin-top: 50%;
+  width: 88%;
+}
+
+.sg-logo:hover .sg-links{
+  visibility: visible;
+}
+
+.sg-logo .sg-links li{
+  background-color: rgba(255, 255, 255, .7);
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  padding: 5px 0px;
+}
+
+.sg-logo .sg-links li a:hover{
+  font-style: italic;
+  text-decoration: none;
+}
+
+.panel-sg .panel-body{
+  display: none;
+}
+
+.panel-sg:hover .panel-body{
+  display: block;
+}
+
+#nexthaunt{
+  background: url('bgds/nexthauntpic.png') no-repeat center center;
+  background-size: cover;
+}
+
+#nextart{
+  background: url('bgds/nextartpic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextfc{
+  background: url('bgds/nextfcpic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextact{
+  background: url('bgds/nextactpic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextmake{
+  background: url('bgds/nextmakepic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextservice{
+  background: url('bgds/nextservicepic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextsustain{
+  background: url('bgds/nextsustainpic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextcode{
+  background: url('bgds/nextcodepic.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextgamers{
+  background: url('bgds/nextgamerspic.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextvgo{
+  background: url('bgds/nextvgopic.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+#nextbigthing{
+  background: url('bgds/nextbtpic.jpg') no-repeat left center;
+  background-size: cover;
+}
+
+#nextbake{
+  background: url('bgds/nextbakepic.jpg') no-repeat center center;
+  background-size: cover;
 }
