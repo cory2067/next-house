@@ -320,7 +320,7 @@ a{
   width: 100%;
 }
 
-.sg-logo:hover img{
+.panel-heading:hover img{
   visibility: hidden;
 }
 
@@ -331,7 +331,7 @@ a{
   width: 88%;
 }
 
-.sg-logo:hover .sg-links{
+.panel-heading:hover .sg-links{
   visibility: visible;
 }
 
@@ -413,4 +413,10 @@ a{
 #nextbake{
   background: url('bgds/nextbakepic.jpg') no-repeat center center;
   background-size: cover;
+}
+
+.pic-paragraph:after{
+  content: "";
+  display: table;
+  clear: both;
 }
