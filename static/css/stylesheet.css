@@ -360,7 +360,9 @@ a{
   top: 0%;
   width: 300px;
   background-color: #DDDDDD;
-  border: 3px solid black;
+  border-radius: 0 4px 4px;
+  box-shadow: 9px 9px 0px 3px rgba(41, 128, 185, .8);
+  /*border: 3px solid black;*/
 }
 
 .panel-sg:hover .panel-body{
