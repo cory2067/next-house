@@ -1,0 +1,62 @@
+<html>
+  {% include head.html %}
+  <body>
+    <div>
+    {% include banner.html %}
+    {% include navbar.html %}
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col jumbo-descript">
+        {{ content }}
+        </div>
+        <div class="col jumbo-panels">
+          <div class="panel panel-default panel-md" style="background-color: #16a085">
+            <div class="panel-heading" style="background-color: #1abc9c">
+              <h3>378</h3>
+            </div>
+            <div class="panel-body">
+              <p>Residents</p>
+            </div>
+          </div>
+          <div class="panel panel-default panel-md">
+            <div class="panel-heading" style="background-color: #e67e22">
+              <h3>8</h3>
+            </div>
+            <div class="panel-body" style="background-color: #d35400">
+              <p>Wings</p>
+            </div>
+          </div>
+          <div class="panel panel-default panel-lg">
+            <div class="panel-heading" style="background-color: #9b59b6">
+              <h3>&gt;12</h3>
+            </div>
+            <div class="panel-body" style="background-color: #8e44ad">
+              <p>Student Groups</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include carousel.html %}
+    <div class="footer">
+      <div class="container" style="padding: 50px;">
+        <div class="row">
+          <div class="col" style="float:right">
+            <p style="text-align:right">Established in 1982. <br>
+              Made lively by Nexties throughout the years.
+            </p>
+          </div>
+          <div class="col">
+            <p><a href="https://www.facebook.com/nexthousemit/"><img src="static/assets/facebook.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
+              <a href="https://twitter.com/mitnexthouse"><img src="static/assets/twitter.png" class="social-icon"></img></a>
+              <a href="http://mitnexthouse.tumblr.com/"><img src="static/assets/tumblr.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
+              <br>Comments? Problems? Just bored? Email next-web (at) mit (dot) edu!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
