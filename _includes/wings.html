@@ -1,38 +1,21 @@
 <div class="container">
   <div class="row">
-    <div class="square" id="sq2W">
-      <h3>2W</h3>
-      <p><em>no website</em></p>
+    {% for wing in site.data.wings %}
+      <div class="square" id="sq{{ wing.name }}">
+        <h3>{{ wing.name }}</h3>
+        <p>
+          {% if wing.website %}
+            <a href="{{ wing.website }}">&#128279;</a>
+          {% else %}
+            <em>no website</em>
+          {% endif %}
+        </p>
+      </div>
+      {% if forloop.index0 == 3 %}
     </div>
-    <div class="square" id="sq2E">
-      <h3>2E</h3>
-      <p><a href="https://next2e.github.io/">website</a></p>
-    </div>
-    <div class="square" id="sq3W">
-      <h3>3W</h3>
-      <p><em>incomplete</em></p>
-    </div>
-    <div class="square" id="sq3E">
-      <h3>3E</h3>
-      <p><em>could</em></p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="square" id="sq4W">
-      <h3>4W</h3>
-      <p><em>put</em></p>
-    </div>
-    <div class="square" id="sq4E">
-      <h3>4E</h3>
-      <p><em>a</em></p>
-    </div>
-    <div class="square" id="sq5W">
-      <h3>5W</h3>
-      <p><em>blurb</em></p>
-    </div>
-    <div class="square" id="sq5E">
-      <h3>5E</h3>
-      <p><em>here</em></p>
-    </div>
+    <div class="row">
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
+  
