@@ -21,15 +21,33 @@ a{
   width: 100%;
 }
 
+@media all and (max-width: 1000px) {
+  .banner {
+    height: 300px;
+  }
+}
+
 .banner-img{
   position: absolute;
-  top: -12%;
+  top: -70%;
   max-width: 100vw;
+}
+
+@media all and (max-width: 1200px) {
+  .banner-img {
+    top: -40%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .banner-img {
+    top: inherit;
+  }
 }
 
 .banner-text{
   position: absolute;
-  bottom: 100px;
+  top: 75px;
   left: 30px;
 }
 
@@ -129,20 +147,26 @@ a{
 }
 
 .jumbo-descript{
-  width:70%;
-  margin-right: 17px;
-  float:left;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .jumbo-panels{
   width: 28%;
-  float: left;
+  float: right;
+  display: inline-block;
+  vertical-align: top;
   color: #ecf0f1;
 }
 
 .jumbo-panels .panel{
   display: inline-block;
   border: none;
+}
+
+.panel {
+  border-radius: 0;
 }
 
 .panel-md{
@@ -157,6 +181,8 @@ a{
 
 .panel-heading{
   border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .panel-heading h3{
@@ -187,6 +213,11 @@ a{
 
 .panel-heading, .panel-body{
   text-align: center;
+}
+
+#myCarousel {
+  height: 400px;
+  overflow: hide;
 }
 
 .carousel-inner .item{
@@ -224,6 +255,38 @@ a{
   width: 100%;
   text-align: center;
 }
+
+#wing2e {top: -70%}
+#emptyroom {top: -100%}
+#studybreak {top: -95%}
+#view {top: -95%}
+#lounge2e {top: -60%}
+#ceerenda {top: -70%}
+#billview {top: -90%}
+#nexthauntslide {top: -60%}
+
+@media all and (max-width: 1080px) {
+  #wing2e {top: -50%}
+  #emptyroom {top: -70%}
+  #studybreak {top: -60%}
+  #view {top: -75%}
+  #lounge2e {top: -40%}
+  #ceerenda {top: -45%}
+  #billview {top: -70%}
+  #nexthauntslide {top: -40%}
+}
+
+@media all and (max-width: 800px) {
+  #wing2e {top: -20%}
+  #emptyroom {top: -40%}
+  #studybreak {top: -30%}
+  #view {top: -35%}
+  #lounge2e {top: -20%}
+  #ceerenda {top: -30%}
+  #billview {top: -50%}
+  #nexthauntslide {top: -20%}
+}
+
 
 #sq2W{background-color: #1abc9c;}
 #sq2W:hover{background-color: #16a085;}
@@ -352,14 +415,16 @@ a{
 }
 
 .panel-sg .panel-body{
+  font-family: "Lato", sans-serif;
   display: none;
   position: absolute;
   z-index: 1;
   float: left;
-  left: 100%;
-  top: 0%;
+  left: 20%;
+  top: 10%;
   width: 300px;
   background-color: #DDDDDD;
+  border: 1px solid #000000;
   border-radius: 0 4px 4px;
   box-shadow: 9px 9px 0px 3px rgba(41, 128, 185, .8);
   /*border: 3px solid black;*/
@@ -367,6 +432,16 @@ a{
 
 .panel-sg:hover .panel-body{
   display: block;
+}
+
+.panel-title {
+  font-size: 20px;
+  margin: 0 0 5px;
+  text-decoration: underline;
+}
+
+.panel-body ul{
+  font-size: 16.8px;
 }
 
 #nexthaunt{

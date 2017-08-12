@@ -14,16 +14,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/css/stylesheet.css">
     <link rel="stylesheet" href="static/css/iconstyle.css">
+    <!-- <link rel="icon" href="./static/assets/logo.png"> -->
   </head>
   <body>
     <div>
-      <div class="banner">
-        <img src="static/assets/next.png" class="img-fluid banner-img"></img>
-        <div class="banner-text">
-          <h1><span>Next House <em>Best House</em></span></h1>
-          <p style="margin-top:22px;"><span>500 Memorial Drive, Cambridge MA 02139</span></p>
-        </div>
-      </div>
       <nav class="navbar navbar-toggleable navbar-inverse bg-faded">
         <ul class="nav navbar-nav">
           <li><a class="active" href="index.html">Home</a></li>
@@ -47,6 +41,13 @@
           <li><a href="resources.html">Student Resources</a></li>
         </ul>
       </nav>
+      <div class="banner">
+        <img src="static/assets/next.png" class="img-fluid banner-img"></img>
+        <div class="banner-text">
+          <h1><span>Next House <em>Best House</em></span></h1>
+          <p style="margin-top:22px;"><span>500 Memorial Drive, Cambridge MA 02139</span></p>
+        </div>
+      </div>
     </div>
 
     <div class="jumbotron">
@@ -85,7 +86,7 @@
       </div>
     </div>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:50%; overflow: hide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!--<ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -95,35 +96,35 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" style="height: 100%; overflow: hide;">
 
-        <div class="item" style="top:-80%">
+        <div class="item" id="wing2e">
           <img src="static/assets/2east.jpg" alt="2East">
         </div>
 
-        <div class="item" style="top: -70%">
+        <div class="item" id="emptyroom">
           <img src="static/assets/emptyroom.jpg" alt="An Empty Room">
         </div>
 
-        <div class="item" style="top:-80%">
+        <div class="item" id="studybreak">
           <img src="static/assets/studybreakprep.jpg" alt="Preparing for a Study Break">
         </div>
 
-        <div class="item" style="top:-95%">
+        <div class="item" id="view">
           <img src="static/assets/view.jpg" alt="River View">
         </div>
 
-        <div class="item" style="top:-60%">
+        <div class="item" id="lounge2e">
           <img src="static/assets/2elounge.jpg" alt="A Wing Lounge">
         </div>
 
-        <div class="item" style="top:-70%">
+        <div class="item" id="ceerenda">
           <img src="static/assets/ceerenda.jpg" alt="Crufty Next Exec">
         </div>
 
-        <div class="item active" style="top:-90%">
+        <div class="item active" id="billview">
           <img src="static/assets/billview.jpg" alt="Next House">
         </div>
 
-        <div class="item" style="top:-60%">
+        <div class="item" id="nexthauntslide">
           <img src="static/assets/nexthaunt.jpg" alt="Next Haunt in Progress">
         </div>
       </div>
@@ -142,16 +143,15 @@
     <div class="footer">
       <div class="container" style="padding: 50px;">
         <div class="row">
-          <div class="col" style="float:right">
-            <p style="text-align:right">Established in 1982. <br>
-              Made lively by Nexties throughout the years.
-            </p>
-          </div>
-          <div class="col">
-            <p><a href="https://www.facebook.com/nexthousemit/"><img src="static/assets/facebook.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
+          <div class="col" style="display: inline-block; width: 60%">
+            <p style="margin: 0 0 5px"><a href="https://www.facebook.com/nexthousemit/"><img src="static/assets/facebook.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
               <a href="https://twitter.com/mitnexthouse"><img src="static/assets/twitter.png" class="social-icon"></img></a>
-              <a href="http://mitnexthouse.tumblr.com/"><img src="static/assets/tumblr.png" class="social-icon" style="margin: 0; width: 20px;"></img></a>
-              <br>Comments? Problems? Just bored? Email next-web (at) mit (dot) edu!</p>
+              <a href="http://mitnexthouse.tumblr.com/"><img src="static/assets/tumblr.png" class="social-icon" style="margin: 0; width: 20px;"></img></a></p>
+            <p>Comments? Problems? Just bored? Email next-web (at) mit (dot) edu!</p>
+          </div>
+          <div class="col" style="display: inline-block; width: 38%; float:right">
+            <p style="text-align:right">Established in 1982.</p>
+            <p style="text-align:right">Made lively by Nexties throughout the years.</p>
           </div>
         </div>
       </div>
