@@ -4,8 +4,7 @@
     <div class="panel-heading" style="
       background: url('static/assets/bgds/{{ group.bg }}') no-repeat center center;
       background-size: cover;
-      "
-    >
+    ">
       <div class="sg-logo">
         <img src="static/assets/logos/{{ group.logo }}"></img>
       </div>
@@ -13,8 +12,15 @@
     <div class="panel-body">
       <h2 class="panel-title">{{ group.name }}</h2>
       <ul class="list-unstyled">
-        <li>Contact: {{ group.contact }}</li>
-        <li>Website: Found <a href="{{ group.website }}">here</a></li>
+        {% if group.contact %}
+          <li><a href="mailto:{{ group.contact }}">{{ group.contact }}</a></li>
+        {% endif %}
+        {% if group.website %}
+          <li><a href="{{ group.website }}">Website</a></li>
+        {% endif %}
+        {% if group.github %}
+          <li><a href="{{ group.github }}">GitHub</a></li>
+        {% endif %}
       </ul>
       <p>{{ group.description }}</p>
     </div>
