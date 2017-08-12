@@ -58,34 +58,35 @@ a{
   padding: 10px;
 }
 
-.navbar .navbar-inner{
-  padding:0
-}
-
 .navbar {
   border: none;
   border-radius: 0;
   margin: 0;
-  display: table;
   width: 100%;
   background-color: #2c3e50;
+  display: flex;
 }
 
-.navbar-nav {
-  margin: 0px;
+.navbar button {
+  border: none;
+  background-color: Transparent;
 }
 
-.navbar-nav .nav ul{
-  width: 100%;
+.navbar button div {
+  width: 20px;
+  height: 2px;
+  background-color: #eeeeee;
+  margin: 5px 0;
+}
+
+.collapse .navbar-collapse{
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar .nav li {
-  width: calc(100vw/5);
-  display: table-cell;
+  display: inline-block;
   float: none;
-}
-
-.navbar .nav li {
   font-weight: bold;
   color: #ecf0f1;
   text-align: center;
