@@ -429,66 +429,6 @@ a{
   font-size: 16.8px;
 }
 
-#nexthaunt{
-  background: url('bgds/nexthauntpic.png') no-repeat center center;
-  background-size: cover;
-}
-
-#nextart{
-  background: url('bgds/nextartpic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextfc{
-  background: url('bgds/nextfcpic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextact{
-  background: url('bgds/nextactpic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextmake{
-  background: url('bgds/nextmakepic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextservice{
-  background: url('bgds/nextservicepic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextsustain{
-  background: url('bgds/nextsustainpic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextcode{
-  background: url('bgds/nextcodepic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextgamers{
-  background: url('bgds/nextgamerspic.jpeg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextvgo{
-  background: url('bgds/nextvgopic.jpeg') no-repeat center center;
-  background-size: cover;
-}
-
-#nextbigthing{
-  background: url('bgds/nextbtpic.jpg') no-repeat left center;
-  background-size: cover;
-}
-
-#nextbake{
-  background: url('bgds/nextbakepic.jpg') no-repeat center center;
-  background-size: cover;
-}
-
 .pic-paragraph:after{
   content: "";
   display: table;
