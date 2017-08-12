@@ -1,0 +1,26 @@
+<div class="footer">
+  <div class="container" style="padding: 50px;">
+    <div class="row">
+      <div class="col" style="float:right">
+        <p style="text-align:right">Established in 1982. <br>
+          Made lively by Nexties throughout the years.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          {% for link in site.links %}
+            <a href="{{ link[1] }}">
+              <img
+                src="static/assets/{{ link[0] }}.png"
+                class="social-icon"
+                style="margin: 0; width: 20px;">
+              </img>
+            </a>
+          {% endfor %}
+        <br>
+        Comments? Problems? Just bored? Email next-web (at) mit (dot) edu!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

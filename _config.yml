@@ -10,6 +10,11 @@ description: With over 350 residents, we are one of the largest and friendliest 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cory2067.github.io/next-house" # the base hostname & protocol for your site, e.g. http://example.com
 
+links:
+  facebook: https://www.facebook.com/nexthousemit/
+  twitter: https://twitter.com/mitnexthouse
+  tumblr: https://mitnexthouse.tumblr.com/
+
 # Build settings
 markdown: kramdown
 gems:
