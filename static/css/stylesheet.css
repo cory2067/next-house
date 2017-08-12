@@ -220,12 +220,18 @@ a{
 }
 
 #myCarousel {
-  height: 400px;
+  height: 50%;
+  overflow: hide;
+}
+
+.carousel-inner{
+  height: 100%;
   overflow: hide;
 }
 
 .carousel-inner .item{
   position: absolute;
+  top: -30%;
 }
 
 

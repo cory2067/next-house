@@ -1,14 +1,16 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:50%; overflow: hide">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" style="height: 100%; overflow: hide;">
-
-  {% for image in site.static_files %}
-    {% if image.path contains 'static/assets/carousel' %}
-      <div class="item" style="top:-80%">
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="carousel-inner">
+    {% for image in site.data.carousel %}
+			{% if forloop.first == true %}
+				<div class="item active">
+			{% else %}
+				<div class="item">
+			{% endif %}
+				<img src="{{ site.url }}/static/assets/carousel/{{ image }}" alt="image" />
+			</div>
+    {% endfor %}
+  </div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
