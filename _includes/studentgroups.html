@@ -1,0 +1,22 @@
+<h2>Student Groups</h2>
+{% for group in site.data.studentgroups %}
+  <div class="panel panel-default panel-sg">
+    <div class="panel-heading" style="
+      background: url('static/assets/bgds/{{ group.bg }}') no-repeat center center;
+      background-size: cover;
+      "
+    >
+      <div class="sg-logo">
+        <img src="static/assets/logos/{{ group.logo }}"></img>
+      </div>
+    </div>
+    <div class="panel-body">
+      <h2 class="panel-title">{{ group.name }}</h2>
+      <ul class="list-unstyled">
+        <li>Contact: {{ group.contact }}</li>
+        <li>Website: Found <a href="{{ group.website }}">here</a></li>
+      </ul>
+      <p>{{ group.description }}</p>
+    </div>
+  </div>
+{% endfor %}
