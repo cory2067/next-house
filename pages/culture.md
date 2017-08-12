@@ -4,8 +4,6 @@ permalink: /culture
 title: Culture
 ---
 
-## Culture
-
 We're interested in anything and everything! You're sure to find other people in Next with similar interests as you - whether it be playing a varsity sport or just going for a casual run, playing in MIT's best musical ensembles or just jamming in the music room, acting, singing, playing board and video games, building cool techy projects, doing recreational math, sleeping (sometimes...), cooking, or eating - we do it all!
 
 But, despite our huge range of interests, the one thing that we all have in common is that we love to have fun, and we're friendly and engaging!

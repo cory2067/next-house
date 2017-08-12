@@ -4,8 +4,6 @@ permalink: /housing
 title: Housing
 ---
 
-## Housing
-
 _Designed by world-famous Spanish architect Josep Lluis Sera and completed in 1982, Next House sports architecture themed around sun and community with colorful living spaces, a bright dining hall, and a beautiful courtyard._
 
 Next House is a co-ed dorm with four floors to house over 350

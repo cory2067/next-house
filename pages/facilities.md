@@ -4,8 +4,6 @@ permalink: /facilities
 title: Facilities
 ---
 
-## Facilities
-
 Next has fantastic facilities - in our opinion, the best on campus. We have a phenomenal dining hall, a courtyard, a music room, exercise and weight rooms, and more! They're constantly being updated and added to in order to keep Next looking and feeling great. And did we mention that we have an awesome checkout system with a ton of movies and equipment that you can borrow? For a full list of the fabulous features of Next House, refer below:
 
 ## Amenities @ Next
