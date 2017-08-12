@@ -262,9 +262,18 @@ a{
 .square p{
   display: none;
   position: absolute;
-  bottom: 35%;
+  bottom: 25%;
   width: 100%;
   text-align: center;
+  text-decoration: none;
+}
+
+.square p a{
+  font-size: 2em;
+}
+
+.square p a:hover{
+  text-decoration: none;
 }
 
 .square:hover h3{
