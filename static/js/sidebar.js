@@ -4,12 +4,17 @@ $(document).ready(function () {
      isClosed = false;
 
     trigger.click(function () {
-      hamburger_cross();
+        toggle_state();
     });
 
-    function hamburger_cross() {
+    overlay.click(function () {
+        $("#wrapper").toggleClass('toggled');
+        toggle_state();
+    });
 
-      if (isClosed == true) {
+    function toggle_state() {
+
+      if (isClosed) {
         overlay.hide();
         trigger.removeClass('is-open');
         trigger.addClass('is-closed');
