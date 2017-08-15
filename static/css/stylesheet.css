@@ -99,7 +99,7 @@ a{
   background-color: Transparent;
 }
 
-.navbar .nav li a:hover, .navbar .nav li a:focus {
+#main-nav .nav li a:hover, #main-nav .nav li a:focus {
   background-color: #2980b9;
 }
 
