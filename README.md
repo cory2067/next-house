@@ -5,7 +5,8 @@ Currently deployed [here][site]!
 
 # Setup
 
-- Install [Jekyll][jekyll] and its dependencies
+- Install [Jekyll][jekyll] and its dependencies (install ruby, then
+    `gem install jekyll`)
 - Clone the repo, `cd` into repo
 - `bundle install`
 
