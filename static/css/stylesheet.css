@@ -10,6 +10,10 @@ h2, h3 {
   margin-top: 50px;
 }
 
+.panel-heading h3 {
+  margin-top: 20px;
+}
+
 p{
   font-family: 'Lato', sans-serif;
 }
