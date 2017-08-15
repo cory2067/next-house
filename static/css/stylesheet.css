@@ -72,6 +72,12 @@ a{
   border-radius: 0;
 }
 
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: 50px;
+    }
+}
+
 .navbar-toggle {
   border: none;
   background-color: Transparent;
