@@ -6,6 +6,10 @@ h1, h2, h3{
   font-family: 'Arvo', serif;
 }
 
+h2, h3 {
+  margin-top: 50px;
+}
+
 p{
   font-family: 'Lato', sans-serif;
 }
