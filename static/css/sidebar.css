@@ -1,14 +1,5 @@
 /* https://bootsnipp.com/snippets/featured/fancy-sidebar-navigation */
 
-body {
-    position: relative;
-    overflow-x: hidden;
-}
-
-body, html {
-    height: 100%;
-}
-
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
     background-color: transparent;
 }
@@ -18,17 +9,6 @@ body, html {
 /*           Wrappers            */
 /*-------------------------------*/
 
-#wrapper {
-    padding-left: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-#wrapper.toggled {
-    padding-left: 220px;
-}
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -51,16 +31,6 @@ body, html {
 
 #wrapper.toggled #sidebar-wrapper {
     width: 220px;
-}
-
-#page-content-wrapper {
-    width: 100%;
-    padding-top: 70px;
-}
-
-#wrapper.toggled #page-content-wrapper {
-    position: absolute;
-    margin-right: -220px;
 }
 
 
@@ -265,18 +235,8 @@ body, html {
     margin-top: -2px;
 }
 
-.hamburger.is-open .hamb-top {
-    -webkit-transform: rotate(45deg);
-    -webkit-transition: -webkit-transform .2s cubic-bezier(.73, 1, .28, .08);
-}
-
-.hamburger.is-open .hamb-middle {
+.hamburger.is-open {
     display: none;
-}
-
-.hamburger.is-open .hamb-bottom {
-    -webkit-transform: rotate(-45deg);
-    -webkit-transition: -webkit-transform .2s cubic-bezier(.73, 1, .28, .08);
 }
 
 .hamburger.is-open:before {
