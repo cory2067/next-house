@@ -1,0 +1,25 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Next House
+email: next-web@mit.edu
+description: With over 350 residents, we are one of the largest and friendliest dorms on campus. We are a group of easy-going people who like to hang out, have fun, and enjoy our time together here at MIT.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://cory2067.github.io/next-house" # the base hostname & protocol for your site, e.g. http://example.com
+
+links:
+  facebook: https://www.facebook.com/nexthousemit/
+  twitter: https://twitter.com/mitnexthouse
+  tumblr: https://mitnexthouse.tumblr.com/
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - github-pages
+exclude:
+  - Gemfile
+  - Gemfile.lock

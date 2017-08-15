@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    {% for wing in site.data.wings %}
+      <div class="square" id="sq{{ wing.name }}">
+        <h3>{{ wing.name }}</h3>
+        <p>
+          {% if wing.website %}
+            <a href="{{ wing.website }}">&#128279;</a>
+          {% else %}
+            <em>no website</em>
+          {% endif %}
+        </p>
+      </div>
+      {% if forloop.index0 == 3 %}
+    </div>
+    <div class="row">
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+  
