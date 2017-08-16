@@ -152,86 +152,30 @@
 /*       Hamburger-Cross         */
 /*-------------------------------*/
 
-.hamburger {
-    position: absolute;
-    top: 10px;
-    z-index: 999;
-    display: block;
-    width: 32px;
-    height: 32px;
-    margin-left: 15px;
-    background: transparent;
-    border: none;
-    color: white;
-}
-
 .hamburger:hover, .hamburger:focus, .hamburger:active {
     outline: none;
 }
 
-.hamburger.is-closed:before {
-    content: '';
+.hamburger.is-closed .icon-bar, .hamburger.is-open .icon-bar {
     display: block;
-    width: 100px;
-    font-size: 14px;
-    color: #fff;
-    line-height: 32px;
-    text-align: center;
-    opacity: 0;
-    -webkit-transform: translate3d(0, 0, 0);
-    -webkit-transition: all .35s ease-in-out;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
 }
 
-.hamburger.is-closed:hover:before {
-    opacity: 1;
-    display: block;
-    -webkit-transform: translate3d(-100px, 0, 0);
-    -webkit-transition: all .35s ease-in-out;
+.hamburger {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+		background-color: Transparent;
+		border: none;
 }
 
-.hamburger.is-closed .hamb-top, .hamburger.is-closed .hamb-middle, .hamburger.is-closed .hamb-bottom, .hamburger.is-open .hamb-top, .hamburger.is-open .hamb-middle, .hamburger.is-open .hamb-bottom {
-    position: absolute;
-    left: 0;
-    height: 4px;
-    width: 100%;
-}
-
-.hamburger.is-closed .hamb-top, .hamburger.is-closed .hamb-middle, .hamburger.is-closed .hamb-bottom {
-    background-color: #eee;
-}
-
-.hamburger.is-closed .hamb-top {
-    top: 5px;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-.hamburger.is-closed .hamb-middle {
-    top: 50%;
-    margin-top: -2px;
-}
-
-.hamburger.is-closed .hamb-bottom {
-    bottom: 5px;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-.hamburger.is-closed:hover .hamb-top {
-    top: 0;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-.hamburger.is-closed:hover .hamb-bottom {
-    bottom: 0;
-    -webkit-transition: all .35s ease-in-out;
-}
-
-.hamburger.is-open .hamb-top, .hamburger.is-open .hamb-middle, .hamburger.is-open .hamb-bottom {
-    background-color: #1a1a1a;
-}
-
-.hamburger.is-open .hamb-top, .hamburger.is-open .hamb-bottom {
-    top: 50%;
-    margin-top: -2px;
+.icon-bar + .icon-bar {
+  margin-top: 4px;
 }
 
 .hamburger.is-open {
