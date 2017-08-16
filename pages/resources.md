@@ -18,7 +18,7 @@ Each wing also elects one or more student wing-reps, who also help throw study b
 
 ### The House Team
 
-The Next House Team is made up of our RLAD (Residential Life Area Director) - Topher Nelson [tophern], our Housemasters, Pablo Jarillo-Herrero [pjarillo] and Empar Rollano-Hijarrubia [empar], and the GRTs of each wing.
+The Next House Team is made up of our RLAD (Residential Life Area Director) - Topher Nelson [tophern], our Heads of Houses, Pablo Jarillo-Herrero [pjarillo] and Empar Rollano-Hijarrubia [empar], and the GRTs of each wing.
 
 ### Next Exec
 
