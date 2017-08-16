@@ -54,10 +54,17 @@ a{
   }
 }
 
+@media all and (max-width: 450px) {
+  .banner-img {
+    max-width: 140vw;
+  }
+}
+
 .banner-text{
   position: absolute;
   top: 75px;
   left: 30px;
+  text-shadow: 2px 2px 8px black;
 }
 
 .banner-text span{
@@ -70,6 +77,12 @@ a{
   margin-bottom: 0px;
   border: none;
   border-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: 50px;
+    }
 }
 
 .navbar-toggle {
@@ -93,7 +106,7 @@ a{
   background-color: Transparent;
 }
 
-.navbar .nav li a:hover, .navbar .nav li a:focus {
+#main-nav .nav li a:hover, #main-nav .nav li a:focus {
   background-color: #2980b9;
 }
 
