@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /printing
-title: Culture
+title: Printing
 ---
 
 To connect to the wing printers you **must** be connected to **MIT Secure**
@@ -28,3 +28,17 @@ On Mac, you should be able to add a new printer from *Print & Scan* under *Syste
 When you add a new printer, go to the IP tab and then enter the above address for your printer.
 
 If you use Linux, then I assume you already know how to set up a printer.
+
+## Printing to the Athena Cluster
+Paperjam is our main copier/scanner/printer, and is capable of printing in color.
+One simple way to print with this is to bring a flash drive with your files and stick it
+into the printer. You may need to log in to use this printer, but the account really doesn't matter.
+So if you don't have an account, just log in with username *bamo*, and password *bamo*.
+For more detailed instructions, [see here]({{ site.url }}/static/PaperjamInstructions.pdf).
+
+We also have a B&W printer, *tree-eater* that you can print to via Pharos. For information about
+Pharos printing, [see here](http://kb.mit.edu/confluence/display/istcontrib/Pharos+Public+Student+Printing+at+MIT).
+
+## Issues
+If any printer is running low on toner, doesn't connect, or has any other problems,
+please email next-printer (at) mit (dot) edu.
