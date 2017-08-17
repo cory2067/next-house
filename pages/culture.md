@@ -42,7 +42,7 @@ define the warmth and friendly atmosphere of Next.
 [minutes]: http://nextres.mit.edu/minutes
 
 ## History and Archives
-For a detailed history of Next House, check out [this elaborate history report]({{% site.url %}}/static/historyreport.pdf).
+For a detailed history of Next House, check out [this elaborate history report]({{site.url}}/static/historyreport.pdf).
 
 You can also view this website's history over the years.
 - [1996](http://next.scripts.mit.edu/1996/)

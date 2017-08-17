@@ -6,11 +6,13 @@ h1,
 h2,
 h3 {
     font-family: 'Arvo', serif;
+    padding-bottom: 15px;
 }
 
 h2,
 h3 {
     margin-top: 50px;
+    padding-bottom: 10px;
 }
 
 .panel-heading h3 {
@@ -18,11 +20,11 @@ h3 {
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .banner {
@@ -34,7 +36,7 @@ a {
 
 @media all and (max-width: 1000px) {
     .banner {
-        height: 300px;
+        height: 400px;
     }
 }
 
@@ -145,6 +147,7 @@ a {
 
 .jumbotron {
     margin-bottom: 0;
+    background-color: white;
 }
 
 .jumbotron-inverse {
@@ -162,7 +165,9 @@ a {
     float: right;
     display: inline-block;
     vertical-align: top;
-    color: #ecf0f1;
+    color: white;
+    position: relative;
+    transform: translateY(25%);
 }
 
 .jumbo-panels .panel {
@@ -233,7 +238,6 @@ a {
 
 .carousel-inner .item {
     position: absolute;
-    top: -30%;
 }
 
 
@@ -437,7 +441,7 @@ a {
 ******************/
 
 #social {
-    background: url('../assets/bgds/formal.jpg') no-repeat center center fixed;
+    /*    background: url('../assets/bgds/formal.jpg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -500,7 +504,7 @@ a {
 
 .sg-logo .sg-links li {
     background-color: rgba(255, 255, 255, .7);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.1em;
     padding: 5px 0px;
 }
@@ -511,7 +515,7 @@ a {
 }
 
 .panel-sg .panel-body {
-    font-family: "Lato", sans-serif;
+    font-family: "Nunito", sans-serif;
     display: none;
     position: absolute;
     z-index: 1;
@@ -574,4 +578,88 @@ a {
     font-style: italic;
     position: absolute;
     left: 25%;
+}
+
+.carousel-image {
+    margin: auto;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 960px) {
+    /*If bigger than medium screen, hide carousel (too wide).*/
+    #myCarousel {
+        display: none;
+    }
+}
+
+/*Phones up to tablets that are not as big as iPad Pro*/
+@media screen and (max-width: 1080px) {
+    .jumbotron .container, .footer .container {
+        max-width: 90%;
+    }
+    .jumbo-panels {
+        display: none;
+    }
+    .jumbo-descript {
+        width: 100%;
+        margin: -50px 0 -70px 0;
+    }
+    .jumbo-descript p {
+        font-size: 1em
+    }
+    .footer {
+        font-size: 0.6em
+        padding: 5px
+    }
+    .contact {
+        display: none;
+    }
+}
+
+/*Phones only (iPhone 6 and above)*/
+@media screen and (max-width: 768px) {
+    h1,h2,h3 {
+        padding-bottom: 0.3em
+    }
+    .jumbotron .container p {
+        font-size: 1em
+    }
+    .banner {
+        height: 300px
+    }
+    .address {
+        display: none;
+    }
+    .next-house,.best-house,.sidewalk {
+        position: relative;
+        left: 10%
+    }
+    .next-house {
+        font-size: 3em;
+    }
+    .best-house {
+        font-size: 2em;
+    }
+}
+
+/*Tiny phones (iPhone SE and below)*/
+@media screen and (max-width: 320px) {
+    .banner {
+        height: 300px
+    }
+    .address {
+        display: none;
+    }
+    .next-house,.best-house,.sidewalk {
+        position: relative;
+        left: 5%
+    }
+    .next-house {
+        font-size: 2.6em;
+    }
+    .best-house {
+        font-size: 1.7em;
+    }
 }

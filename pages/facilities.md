@@ -4,20 +4,20 @@ permalink: /facilities
 title: Facilities
 ---
 
-Next has fantastic facilities - in our opinion, the best on campus. We have a phenomenal dining hall, a courtyard, a music room, exercise and weight rooms, and more! They're constantly being updated and added to in order to keep Next looking and feeling great. And did we mention that we have an awesome checkout system with a ton of movies and equipment that you can borrow? For a full list of the fabulous features of Next House, refer below:
 
-## Amenities @ Next
+
+Next has fantastic facilities—in our opinion, the best on campus. We have a phenomenal dining hall, a courtyard, a music room, exercise and weight rooms, and more! They're constantly being updated and added to in order to keep Next looking and feeling great. And did we mention that we have an awesome checkout system with a ton of movies and equipment that you can borrow? For a full list of the fabulous features of Next House, refer below:
 
 ### Tastefully Furnished Lounge
 
-![TFL]({{ site.url }}/static/assets/tfl.png)
+![TFL]({{ site.url }}/static/assets/tfl.jpg)
 
 Right as you walk in to Next House and move past our lovely front desk, you can't miss our Tastefully Furnished Lounge, or TFL for short.
 The TFL is our largest gathering space, and is partitioned into two sections, the main area and the TV area. Many of house-wide study breaks take place in the main area, and countless viewing parties and house meetings have been held in the TV Area. One of our signature student group performances, Next Act, happens entirely in the TFL! When not being used by the whole house, the TFL is a great space to relax with friends or get work done.
 
 ### Courtyard
 
-![courtyard]({{ site.url }}/static/assets/cy.png)
+![courtyard]({{ site.url }}/static/assets/cy.jpg)
 
 Similar to our TFL, the courtyard is huge gathering space for Nexties, but this one is _outside_. Fun in both the hot weather (with activities such as
               barbecues and water balloon fights) and the cold weather (snowball fights and snowmen galore), the courtyard is great for outdoor activities with fellow Nexties. And again,
@@ -25,7 +25,7 @@ Similar to our TFL, the courtyard is huge gathering space for Nexties, but this 
 
 ### Next Dining
 
-![Dining Hall]({{ site.url }}/static/assets/dh.png)
+![Dining Hall]({{ site.url }}/static/assets/dh.jpg)
 
 We could write out countless testimonials in favor of the food at Next Dining, but this is one of those things you'll just have to taste to believe. Featuring
             the best food and friendliest chefs on campus, our dining hall is one of the most attractive features of Next. There's also seating galore, with other residents always
@@ -34,7 +34,7 @@ We could write out countless testimonials in favor of the food at Next Dining, b
 
 ### Country Kitchen
 
-![Country Kitchen]({{ site.url }}/static/assets/ck.png)
+![Country Kitchen]({{ site.url }}/static/assets/ck.jpg)
 
 For those of you that would like to express your own creative cooking talents (or work on developing them!), Next offers a large communal kitchen space, in our grand
             Country Kitchen. The Country Kitchen is almost always open and ready for any sort of cooking adventures you may yearn for. The key features of our Country Kitchen include:
@@ -43,14 +43,14 @@ For those of you that would like to express your own creative cooking talents (o
 
 ### Weight Room
 
-![Weight Room]({{ site.url }}/static/assets/wr.png)
+![Weight Room]({{ site.url }}/static/assets/wr.jpg)
 
 Want to lift some heavy weights or just get some casual exercise in without heading all the way to main campus? Look no further than our local weight room! Located very close
             to the front entrance, the weight room has a solid variety of strength machines and free weights, as well as a bumping sound system for you to get in the zone while working out.
 
 ### Cardio Room
 
-![Cardio Room]({{ site.url }}/static/assets/car.png)
+![Cardio Room]({{ site.url }}/static/assets/car.jpg)
 
 Not the weight-lifting type? That's okay too! At Next, we also have a fully furnished cardio room. Located a little bit beyond the front entrance and close to the elevators,
             the cardio room offers everything you need to get you heart rate up. The cardio room has a number of treadmills and other cardio equipment. You can bring your own music to jam to,
@@ -58,28 +58,28 @@ Not the weight-lifting type? That's okay too! At Next, we also have a fully furn
 
 ### Music Room
 
-![Music Room]({{ site.url }}/static/assets/mr.png)
+![Music Room]({{ site.url }}/static/assets/mr.jpg)
 
 Situated right next to our cardio room is the music room, with all the space and utilities you need to develop your musical skills.  Feel free to use it solo or with a group, and express yourself without being concerned about waking the neighbors.
             Our music room has an upright piano, a drum set, and music stands aplenty.
 
 ### Conference Room
 
-![Conference Room]({{ site.url }}/static/assets/cr.png)
+![Conference Room]({{ site.url }}/static/assets/cr.jpg)
 
 Moving on to our more _formal_ amenities, Next House has a luxurious conference room. The conference room is extremely useful for any sorts of group gatherings. Whether that be a board game session,
             group project, or event planning meeting, consider using the conference room! The conference room is located in the basement, is air-conditioned, and houses a large table and flat screen television mounted on the wall.
 
 ### Private Dining Room
 
-![Private Dining Room]({{ site.url }}/static/assets/pdr.png)
+![Private Dining Room]({{ site.url }}/static/assets/pdr.jpg)
 
 Similar to the conference room, part of our dining hall is designated as the Private Dining Room. Separated from the rest of the dining hall by a glass-windowed wall, the PDR can be used for meetings both on and off dining hours.
             The PDR features a table _even larger_ than the one in the conference room. It's also got a projector system, whiteboard, and its own sound system.
 
 ### Athena Cluster
 
-![Athena Cluster]({{ site.url }}/static/assets/ac.png)
+![Athena Cluster]({{ site.url }}/static/assets/ac.jpg)
 
 Need some more technology in your life? Check out Next's own Athena Cluster. Maintained by both IS&T as well as Next House, the Athena Cluster is home to all your computing needs.
             It has multiple computers hooked up to MIT's Athena system, plenty of desk space, a printer we kindly refer to as Tree-Eater, and a copier/scanner we know as Paperjam (name not indicative of printing performance). The Athena
@@ -87,7 +87,7 @@ Need some more technology in your life? Check out Next's own Athena Cluster. Mai
 
 ### Laundry Room
 
-![Laundry Room]({{ site.url }}/static/assets/lr.png)
+![Laundry Room]({{ site.url }}/static/assets/lr.jpg)
 
 For all your laundry needs, Next House has a convenient laundry room! The laundry room has an abundant number of washing and drying machines, which you can pay for using TechCash associated to your
             kerberos, or with good ol' fashioned quarters. There's a number of laundry bins with community-sourced names that inspire quite the conversation. We encourage cleanliness in the laundry room, and if you contribute
@@ -95,14 +95,14 @@ For all your laundry needs, Next House has a convenient laundry room! The laundr
 
 ### Bike Parking
 
-![Bike Parking]({{ site.url }}/static/assets/bp.png)
+![Bike Parking]({{ site.url }}/static/assets/bp.jpg)
 
 Next House may the furthest dorm from campus, but we feature plenty of bike storage to compensate for that fact! If you own a bike, you've got many options as to where you can store your bike. You'll first notice the
             bike racks outside; following that is the bike room located right off the lobby of Next House, with capacity for around 40 bikes; and after that we've got bike lounges on every wing, which can hold around 10-20 bikes.
 
 ### Basement Game Area
 
-![Basement Game Area]({{ site.url }}/static/assets/bm.png)
+![Basement Game Area]({{ site.url }}/static/assets/bm.jpg)
 
 Have some free time to kill? Head on down to Next House Basement which features a Game Area with a pool table, foosball table, and ping pong table. All necessary supplies are provided,
             so bring your friends and get some sweet skills. This basement is also home to the structure we call Next Haunt during the month of October. Whatever the occasion may be, the basement
