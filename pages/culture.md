@@ -20,7 +20,7 @@ Some wing's pages are currently under construction. Please check back later for 
 
 ## Social
 
-Next is one of the most social dorms on campus! We have regular study 
+Next is one of the most social dorms on campus! We have regular study
 breaks (such as **coffeehouse**) and social events so you can take a
 break from those psets, an **annual fall formal** so you can dance
 away, and an annual **ski trip** so you can breeze down a snowy
@@ -41,3 +41,23 @@ define the warmth and friendly atmosphere of Next.
 [handbook]: static/NextHouseCommunityHandbookFall2017.pdf
 [minutes]: http://nextres.mit.edu/minutes
 
+## History and Archives
+For a detailed history of Next House, check out [this elaborate history report]({{% site.url %}}/static/historyreport.pdf).
+
+You can also view this website's history over the years.
+- [1996](http://next.scripts.mit.edu/1996/)
+- [1999](http://next.scripts.mit.edu/1999/)
+- [2001](http://next.scripts.mit.edu/2001/)
+- [2004](http://next.scripts.mit.edu/2004/)
+- [2005](http://next.scripts.mit.edu/2005/)
+- [2016](http://next.scripts.mit.edu/2016/)
+
+There is also a 2008 iteration of the website, but unfortunately it hasn't been preserved well.
+The version labeled *2016* was longest-surviving iteration of the website. Written in 2011
+by Next resident Steve Levine, this version served Next House all the way until August 2017.
+
+You can also view minutes from old Next Exec meetings, or as it was called back in the day, ExecCom.
+Check out the 1996-1997 minutes [here](http://next.scripts.mit.edu/1999/execcom/). There are also some
+2004 minutes on the ExecCom page of the 2004 website.
+
+There's also an interesting i3 website, archived from 2012. You can find it [here](http://next.scripts.mit.edu/2012-i3/welcome.html).
