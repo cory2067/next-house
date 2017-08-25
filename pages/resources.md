@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /resources
+permalink: /resources/
 title: Student Resources
 ---
 

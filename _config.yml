@@ -8,7 +8,7 @@ email: next-web@mit.edu
 description: With over 350 residents, we are one of the largest and friendliest dorms on campus. We are a group of easy-going people who like to hang out, have fun, and enjoy our time together here at MIT.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cory2067.github.io/next-house" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://next.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 links:
   facebook: https://www.facebook.com/nexthousemit/

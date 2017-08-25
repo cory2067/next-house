@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /housing
+permalink: /housing/
 title: Housing
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /culture
+permalink: /culture/
 title: Culture
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /printing
+permalink: /printing/
 title: Printing
 ---
 
