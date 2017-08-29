@@ -38,7 +38,7 @@ define the warmth and friendly atmosphere of Next.
 
 {% include studentgroups.html %}
 
-[handbook]: static/NextHouseCommunityHandbookFall2017.pdf
+[handbook]: /static/NextHouseCommunityHandbookFall2017.pdf
 [minutes]: http://nextres.mit.edu/minutes
 
 ## History and Archives

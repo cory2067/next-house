@@ -22,4 +22,4 @@ The Next House Team is made up of our RLAD (Residential Life Area Director) - To
 
 ### Next Exec
 
-Next Exec is our student government. Exec is responsible for running the housing lotteries, planning social events and study breaks, managing finances, keeping in touch with alumni, and generally making sure Next House doesn't burn down.
+Next Exec is our student government. Exec is responsible for running the housing lotteries, planning social events and study breaks, managing finances, keeping in touch with alumni, and generally making sure Next House doesn't burn down. You can view Next Exec's [Constitution](/static/NextHouseConstitution2015.pdf) and [Bylaws](/static/NextHouseBylaws2016.pdf), which lays out their responsibilities and procedures.
