@@ -88,6 +88,16 @@ a {
     .navbar-nav {
         margin-left: 50px;
     }
+
+    .mobile-only {
+        display: none!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .desktop-only {
+        display: none!important;
+    }
 }
 
 .navbar-toggle {
