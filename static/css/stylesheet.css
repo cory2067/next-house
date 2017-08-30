@@ -259,46 +259,6 @@ a {
 *        WINGS        *
 **********************/
 
-.square {
-    background-color: #ecf0f1;
-    float: left;
-    position: relative;
-    width: 21%;
-    padding-bottom: 21%;
-    margin: 1.66%;
-    border-radius: 8px;
-    color: #ecf0f1;
-}
-
-.square h3 {
-    position: absolute;
-    bottom: 35%;
-    width: 100%;
-    text-align: center;
-    font-size: 3em;
-}
-
-.square p {
-    display: none;
-    position: absolute;
-    bottom: 25%;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-}
-
-.square p a:hover {
-    text-decoration: none;
-}
-
-.square:hover h3 {
-    display: none;
-}
-
-.square:hover p {
-    display: block;
-}
-
 .panel-heading .wing-title {
     margin-top: 15px;
     margin-bottom: 15px;
