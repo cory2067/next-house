@@ -503,7 +503,7 @@ a {
     float: left;
     left: 20%;
     top: 10%;
-    width: 300px;
+    width: 275px;
     background-color: #DDDDDD;
     border: 1px solid #000000;
     border-radius: 0 4px 4px;
@@ -513,6 +513,18 @@ a {
 .panel-sg:hover .panel-body {
     display: block;
 }
+
+@media all and (max-width: 1000px) {
+    .panel-body p {
+        font-size: 1em;
+    }
+
+    .panel-sg .panel-body {
+        left: 5%;
+        width: 200px;
+    }
+}
+
 
 .panel-title {
     font-size: 20px;
