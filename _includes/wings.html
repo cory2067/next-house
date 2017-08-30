@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
   <div class="row">
     {% for wing in site.data.wings %}
       <div class="square" id="sq{{ wing.name }}">
@@ -17,5 +17,22 @@
       {% endif %}
     {% endfor %}
   </div>
-</div>
-  
+</div>-->
+
+
+{% for wing in site.data.wings %}
+  <div class="panel panel-default panel-sg">
+    <div class="panel-heading" id="sq{{ wing.name }}">
+        <p class="wing-title">{{ wing.name }}</p>
+    </div>
+    <div class="panel-body">
+      <h2 class="panel-title">{{ wing.name }}</h2>
+      <ul class="list-unstyled">
+        {% if wing.website %}
+          <li><a href="{{ wing.website }}">Website</a></li>
+        {% endif %}
+      </ul>
+      <p>{{ wing.description }}</p>
+    </div>
+  </div>
+{% endfor %}

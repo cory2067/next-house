@@ -299,6 +299,13 @@ a {
     display: block;
 }
 
+.panel-heading .wing-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
 #wing2e {
     top: -70%
 }
@@ -638,6 +645,9 @@ a {
     }
     .jumbotron .container p {
         font-size: 1em
+    }
+    .wing-title {
+        font-size: 1.5em!important
     }
     .banner {
         height: 300px
