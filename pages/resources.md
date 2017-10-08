@@ -30,13 +30,15 @@ I am derp-in-chief of Next House. I make sure Next House doesn't burn down, (hop
 Welcome to Next House, the Best House on campus :D
 
 **VP Relations:** Nora Enright *[next-vprel]*
-> henlo world, i am vermont.
+> Hey everyone! I'm the 2017 VP Relations so feel free to ask me about student groups and mailing lists
 
 **VP Facilities & Services:** Matt Farejowicz *[next-vpfac]*
 > Heyo! I'm Matt, and I'm in charge of making sure Next House doesn't fall apart completely. Sometimes I manage to accomplish this task. Though other times I'm the one causing the hazards =D
 
 **Social Chair:** Shavina Chau *[next-social]*
-> AKA: Shacha, &Co., shavinac. Likes chocolate, playing Smash, and the #nextexeclife. Not a memer of the 5'0 and above club, proud memer of the 2E Bad Decision Club.
+> Hi, I organize events for Nexties that usually involve free food and lots of fun. If you have any ideas for such events, definitely email next-social@mit.edu ;D
+When I'm not aggressively emailing and postering for events, I'm usually hanging out somewhere in 2E, playing Smash and/or League.
+
 
 **Secretary:** Nia Myrie *[next-secretary]*
 > What’s up? I’m Nia, a 3E runner, RWBY-fan, and Ravenclaw. As secretary, I keep track of meeting minutes (and meeting memes) so the house knows what’s going on, and I help out with other random Next House activities. I will never use Comic Sans.
@@ -58,4 +60,4 @@ Well, sometimes I make websites too. Occasionally I even show up to meetings.
 > Hi, I'm Justina, parent of all wingreps! I also think about our bylaws and strive to get quorum on all Next House votes.
 
 **Alumni Chair:** Bill Pinney *[next-alumni]*
-> henlo world, i am also vermont.
+> Hello, I’m Bill. I’m from 2E and I work to help connect the awesome current residents of next house with the amazing residents of years gone by. Whether you are a next alum interested in getting in touch with the dorm community of today, or you’re a next resident interesting in reaching out to the next residents of the past, please don’t hesitate to speak with me.
