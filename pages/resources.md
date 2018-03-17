@@ -24,40 +24,46 @@ The Next House Team is made up of our RLAD (Residential Life Area Director) - To
 
 Next Exec is our student government. Exec is responsible for running the housing lotteries, planning social events and study breaks, managing finances, keeping in touch with alumni, and generally making sure Next House doesn't burn down. You can view Next Exec's [Constitution](/static/NextHouseConstitution2015.pdf) and [Bylaws](/static/NextHouseBylaws2016.pdf), which lays out their responsibilities and procedures.
 
-**President:** Cynthia Lo *[next-president]*
-> Hiya!
-I am derp-in-chief of Next House. I make sure Next House doesn't burn down, (hopefully) make people happy, and take naps in various lounges while trying not to lose my shoes. I am a longtime resident of 3E, member of the Orton Research Group, Course 3, avid Doctor Who fan, and have served in lots of different student groups around campus, so feel free to come talk to me about anything!
-Welcome to Next House, the Best House on campus :D
+**President:** Justina Yang *[next-president]*
+![justina]({{ site.url }}/static/assets/exec/justina.jpg){: .execpic}
+> Hello, I’m Justina! I like talking to people, dance and martial arts, reading, and physics. I’ve also switched majors once, lived in a triple, and been involved in 4W and Next since my sophomore year, so feel free to flag me down and talk to me about anything! It doesn’t have to be Next- or MIT-related, but if it is, I’ll happily say, Next House, Best House! Welcome to our friendly and creative community.
 
-**VP Relations:** Nora Enright *[next-vprel]*
-> Hey everyone! I'm the 2017 VP Relations so feel free to ask me about student groups and mailing lists
+**VP Relations:** Jessica Tang *[next-vprel]*
+![jessica]({{ site.url }}/static/assets/exec/jessica.jpg){: .execpic}
+> Level 32 NPC aspiring to be an Adventurer
 
 **VP Facilities & Services:** Matt Farejowicz *[next-vpfac]*
-> Heyo! I'm Matt, and I'm in charge of making sure Next House doesn't fall apart completely. Sometimes I manage to accomplish this task. Though other times I'm the one causing the hazards =D
+![matt]({{ site.url }}/static/assets/exec/matt.jpg){: .execpic}
+> Heyo! I’m Matt, and I’m in charge of making sure Next House doesn’t fall apart. You can generally find me hanging out in 2E or tinkering with the various facilities in Next.
 
-**Social Chair:** Shavina Chau *[next-social]*
-> Hi, I organize events for Nexties that usually involve free food and lots of fun. If you have any ideas for such events, definitely email next-social@mit.edu ;D
-When I'm not aggressively emailing and postering for events, I'm usually hanging out somewhere in 2E, playing Smash and/or League.
-
+**Social Chair:** Mary Dahl *[next-social]*
+![mary]({{ site.url }}/static/assets/exec/mary.jpg){: .execpic}
+> Hi, I'm Mary! When I'm not planning fun social events for Nexties, you can find me planning Next Big Thing, building Next Haunt, playing with Next Quest, acting in the Shakespeare Ensemble, screaming about rockets, or generally causing mischief in SafetyThird!
 
 **Secretary:** Nia Myrie *[next-secretary]*
-> What’s up? I’m Nia, a 3E runner, RWBY-fan, and Ravenclaw. As secretary, I keep track of meeting minutes (and meeting memes) so the house knows what’s going on, and I help out with other random Next House activities. I will never use Comic Sans.
+![nia]({{ site.url }}/static/assets/exec/nia.jpg){: .execpic}
+> What’s up? I’m Nia, a 3E resident, runner, RWBY-fan, and Ravenclaw. I keep track of meeting minutes and update the house calendar so the Nexties know what’s going on. I also help out with other random Next House activities. I promise to never use Comic Sans.
 
 **Tech/Website Chair:** Cory Lynch *[next-techchair]*
-> I fix printers, and that is all I do.
-Well, sometimes I make websites too. Occasionally I even show up to meetings.
+![cory]({{ site.url }}/static/assets/exec/cory.png){: .execpic}
+> printer slave
 
-**Housing Chair:** Jessica Tang *[next-housing]*
-> Heyo~ I'm Jessica, the Housing Couch. When I'm not housing Nexties, you can find me in 2E drinking boba, going on adventures, or roping people into playing games (i.e. one night ultimate werewolf, field day games, or modded card games)"
+**Housing Chair:** Blair Anaman Williams *[next-housing]*
+![blair]({{ site.url }}/static/assets/exec/blair.jpg){: .execpic}
+> Class of 2021; Course 10. Spent first 2/3 of life in Maryland, other 1/3 in Ghana. Love Sports and people.
 
 **Dining Chair:** PJ Hernandez *[next-dining]*
+![pj]({{ site.url }}/static/assets/exec/pj.jpg){: .execpic}
 > Hi. I'm PJ and I do dining things. Talk to me about ideas for dining or cooking or baking or anything food related. Let's make stuff happen!
 
 **Treasurer:** Brandon Barajas *[next-treasurer]*
-> Will think of blurb later.
+![brandon]({{ site.url }}/static/assets/exec/brandon.jpg){: .execpic}
+> The path I walk may be trodden by few, but in the desolation and hardship, I find clarity of mind and forge an unbreakable resolve.
 
-**JudComm:** Justina Yang *[next-judcomm]*
-> Hi, I'm Justina, parent of all wingreps! I also think about our bylaws and strive to get quorum on all Next House votes.
+**JudComm:** Ben Nguyen *[next-judcomm]*
+![ben]({{ site.url }}/static/assets/exec/ben.png){: .execpic}
+> Hello, I'm Ben! I think about bylaws, elections, and foooddddd~
 
 **Alumni Chair:** Bill Pinney *[next-alumni]*
-> Hello, I’m Bill. I’m from 2E and I work to help connect the awesome current residents of next house with the amazing residents of years gone by. Whether you are a next alum interested in getting in touch with the dorm community of today, or you’re a next resident interesting in reaching out to the next residents of the past, please don’t hesitate to speak with me.
+![bill]({{ site.url }}/static/assets/exec/bill.jpg){: .execpic}
+> If you didn't know already, Next House is an absolutely fantastic place to live. It's a vibrant community full of all sorts of amazing people, with all sorts of awesome things to share and teach. As Alumni Relations Chair, I work to make sure that the fantastic Nexties of today stay connected with the fantastic Nexties of the past. When not relating to Alumni you can catch me around Next, chilling in the 2E main lounge, working on LED lights in my room, or course 20-ing on a table somewhere. If you have any questions, or even if you just want to chat, don't hesitate to stop by!
