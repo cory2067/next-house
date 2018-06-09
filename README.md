@@ -1,7 +1,10 @@
-# next-house
-Website for Next House, residence hall at MIT
+# Next House
 
-Currently deployed [here][site]!
+Website for Next House, residence hall at MIT.
+
+Live site at [http://next.mit.edu][live-site]!
+
+Development site [here][dev-site]!
 
 # Setup
 
@@ -21,5 +24,6 @@ exec jekyll serve`.
 
 TBD
 
-[site]: https://cory2067.github.io/next-house
+[live-site]: http://next.mit.edu
+[dev-site]: https://cory2067.github.io/next-house
 [jekyll]: https://jekyllrb.com/
