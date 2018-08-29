@@ -4,7 +4,7 @@ permalink: /reservations/
 title: Room Reservations
 ---
 
-To reserve a room, visit [NextRes](http://nextres.mit.edu/roomreservations)
+To reserve a room, visit [NextRes](http://res.nextie.us/roomreservations)
 and fill out a reservation form.
 
 ## Current Reservations

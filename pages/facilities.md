@@ -117,4 +117,4 @@ Nexties have the ability to reserve a large majority of the above spaces through
 
 [menu]: http://mit.cafebonappetit.com/cafe/next/
 [laundry]: http://classic.laundryview.com/laundry_room.php?lr=1364812
-[nextres]: http://nextres.mit.edu/login
+[nextres]: http://res.nextie.us

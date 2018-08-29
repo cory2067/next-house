@@ -39,7 +39,7 @@ define the warmth and friendly atmosphere of Next.
 {% include studentgroups.html %}
 
 [handbook]: /static/NextHouseCommunityHandbookFall2017.pdf
-[minutes]: http://nextres.mit.edu/minutes
+[minutes]: http://res.nextie.us/minutes
 
 ## History and Archives
 For a detailed history of Next House, check out [this elaborate history report]({{site.url}}/static/historyreport.pdf).
