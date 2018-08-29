@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+bundle exec jekyll build
+echo "-----------------"
+read -p "Athena username: " username
+
+if command -v rsync &>/dev/null ; then
+    echo "Deploying site with rsync"
+    rsync -aPz _site/ $username@athena.dialup.mit.edu:/mit/next/web_scripts/root/
+else
+    echo "rsync not available, falling back to scp (slower)"
+    scp -r _site/ $username@athena.dialup.mit.edu:/mit/next/web_scripts/root/
+fi
+
+echo "-----------------"
+echo "Deploy success!"
