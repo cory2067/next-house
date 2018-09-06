@@ -5,7 +5,7 @@ title: Printing
 ---
 
 To connect to the wing printers, you **must** be connected to `MIT Secure`
-or hooked up via ethernet (which has a speed cap of around `10mbps`). `MIT Guest` won't work.
+or hooked up via ethernet. `MIT Guest` may not work.
 
 ## Printer Names
 ```
@@ -32,8 +32,7 @@ If you use Linux, then it is assumed that you know how to set up a printer.
 ## Printing to the Athena Cluster
 `Paperjam` is our main copier/scanner/printer, capable of printing in color.
 One simple way to print with this is to bring a flash drive with your files and plug it
-into the printer. You may need to log in to use this printer, but the account really doesn't matter.
-If you don't have an account, log in with username `bamo`, password `bamo`.
+into the printer. To log in to the printer, use username `bamo`, password `bamo`.
 For more detailed instructions, [see here]({{ site.url }}/static/PaperjamInstructions.pdf).
 
 We also have a B&W printer, `tree-eater`, which you can print to via Pharos. For information about
