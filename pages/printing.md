@@ -7,6 +7,8 @@ title: Printing
 To connect to the wing printers, you **must** be connected to `MIT Secure`
 or hooked up via ethernet. `MIT Guest` may not work.
 
+If you have issues with network printing, you can also print via USB (type B cable). Note: Your OS will probably list wired connection as a separate printer, so make sure you select the correct entry.
+
 ## Printer Names
 ```
 2E: justinbieber.mit.edu
