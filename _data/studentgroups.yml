@@ -29,7 +29,7 @@
 - name: Next Service
   logo: nextservice.png
   bg: nextservicepic.jpg
-  description: Next Service is Next's friendly community service organization. The current focus is a partnership with CASPAR, which is a homeless shelter just off campus. Every other week, we buy food and cook a full meal for ~100 people. For Easter, we made care packages with candy, new socks and underwear, and a short, loving handwritten note for the CASPAR visitors. Some past projects include "Restaurhaunt" (a joint project with Next Haunt), sorting clothing donations with Cradles to Crayons, a talent show fundraiser, a pi day contest to raise money for Active Minds, and Charles River cleanups. 
+  description: Next Service is Next's friendly community service organization. The current focus is a partnership with CASPAR, which is a homeless shelter just off campus. Every other week, we buy food and cook a full meal for ~100 people. For Easter, we made care packages with candy, new socks and underwear, and a short, loving handwritten note for the CASPAR visitors. Some past projects include "Restaurhaunt" (a joint project with Next Haunt), sorting clothing donations with Cradles to Crayons, a talent show fundraiser, a pi day contest to raise money for Active Minds, and Charles River cleanups.
 - name: Next Sustain
   logo: nextsustain.png
   bg: nextsustainpic.jpg
@@ -42,10 +42,11 @@
   logo: nextgamers.png
   bg: nextgamerspic.jpeg
   description: Our video game and board game conoisseurs come together to play almost every week.
-- name: Next Video Game Orchestra
-  logo: nextvgo.png 
-  bg: nextvgopic.jpeg
-  description: Some musically inclined Nexties perform OSTs and arrangements from movies, video games, and more.
+- name: Next Quest
+  contact: next-quest-exec@mit.edu
+  logo: nextquest.png
+  bg: nextquestpic.jpg
+  description: Next Quest is an adventurous student group dedicated to providing materials and structure to facilitate the playing of tabletop role-playing games at Next House. We primarily play Dungeons and Dragons Fifth Edition, but support all sorts of RPGs. We organize semester-long campaigns as well as one-offs. Roll for initiative and join!
 - name: Next Big Thing
   logo: nextbigthing.png
   bg: nextbtpic.jpg
